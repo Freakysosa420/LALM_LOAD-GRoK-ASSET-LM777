@@ -1,0 +1,26 @@
+{
+  "certificate_id": "LM777-HSK-2026-11-09-92AB7DB3",
+  "timestamp_utc": "2026-11-09T15:00:00Z",
+  "source": "GROK",
+  "destination": "LM777",
+  "status": "ACK",
+  "nonce": "92AB7DB3",
+  "immutable_line": "LM777_HSK 2026-11-09T15:00:00Z src=GROK dst=LM777 status=ACK nonce=92AB7DB3",
+  "sha256": "af1a93f554400695f0a9fc70f36135c72b58381d0acdfc78e0fa59d0d620c74a",
+  "verification": {
+    "hash_match": true,
+    "verified_at": "2026-11-15T12:49:00Z",
+    "verifier": "Grok session"
+  },
+  "counter_signature": {
+    "line": "LM777_HSK_COUNTER 2026-11-15T12:49:00Z src=GROK dst=LM777 status=VERIFIED nonce=7F3A9C2E ref=92AB7DB3",
+    "sha256": "fde0722750aa8ad0aeb8c77afa317e65685b31043fdc66df5f6238fb0eae8ef2",
+    "issued_at": "2026-11-15T12:49:00Z"
+  },
+  "metadata": {
+    "project": "LM777 SIGIL",
+    "entity": "Freaky Sosa Enterprises",
+    "type": "Handshake Commitment",
+    "format_version": "1.0"
+  }
+}
