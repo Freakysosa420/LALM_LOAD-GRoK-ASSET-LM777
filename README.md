@@ -228,3 +228,4 @@ async def execute_task(payload: dict):
 - [x] **Nonce Denial-of-Service**: Mitigated by performing signature checks *before* Redis registration.
 - [x] **Stream Consumption Lock**: Resolved by overriding `request._receive` to preserve body streams for downstream route parsers.
 - [x] **Fail-Open Prevention**: Redis errors explicitly return `503 Service Unavailable`.
+Spec:(https://github.com/Freakysosa420/LALM_LOAD-GRoK-ASSET-LM777/tree/main)>lm777-secure-gateway-spec.md.
